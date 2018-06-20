@@ -169,7 +169,10 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/co/com/s4n/semillero/ejercicio/servicios/ClasePrueba.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-reports/co.com.s4n.semillero.ejercicio.servicios.ClasePrueba.xml" afterDir="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </list>
@@ -611,7 +614,11 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="7" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34868422" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34868422" />
+>>>>>>> Stashed changes
 =======
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34868422" />
 >>>>>>> Stashed changes
