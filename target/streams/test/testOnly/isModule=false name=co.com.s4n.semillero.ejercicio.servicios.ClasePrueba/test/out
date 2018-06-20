@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest co.com.s4n.semillero.ejercicio.servicios.[33mClasePrueba[0m.[36mtestCambiarPosicionConVariasInstrucciones[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest co.com.s4n.semillero.ejercicio.servicios.[33mClasePrueba[0m.[36mtestCambiarPosicionConVariasInstrucciones[0m finished, took 0.024 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest co.com.s4n.semillero.ejercicio.servicios.[33mClasePrueba[0m.[36mtestCambiarPosicionConUnaInstruccion[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest co.com.s4n.semillero.ejercicio.servicios.[33mClasePrueba[0m.[36mtestCambiarPosicionConUnaInstruccion[0m finished, took 0.0 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 2 total, 0.027s[0m[0m
