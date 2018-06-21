@@ -4,7 +4,7 @@
 		module="drones-para-domicilio-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180620093303"
+		publication="20180620194659"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

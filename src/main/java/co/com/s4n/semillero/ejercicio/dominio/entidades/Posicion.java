@@ -2,7 +2,7 @@ package co.com.s4n.semillero.ejercicio.dominio.entidades;
 
 import co.com.s4n.semillero.ejercicio.dominio.valueObject.Orientacion;
 
-public class Posicion {
+public final class Posicion {
 
     public int x;
     public int y;
@@ -21,7 +21,7 @@ public class Posicion {
     }
 
     public String convToString(){
-        String res = "("+this.x+", "+this.y+") dirección "+this.orientacion.toString();
+        String res = "("+this.x+", "+this.y+") direccion "+this.orientacion.toString();
         return res;
     }
 

@@ -2,7 +2,7 @@ package co.com.s4n.semillero.ejercicio.dominio.entidades;
 
 import co.com.s4n.semillero.ejercicio.dominio.valueObject.Orientacion;
 
-public class Dron {
+public final class Dron {
 
     public int id;
     public Posicion posicion;
@@ -17,4 +17,11 @@ public class Dron {
         this.posicion = posicion;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public Posicion getPosicion() {
+        return posicion;
+    }
 }

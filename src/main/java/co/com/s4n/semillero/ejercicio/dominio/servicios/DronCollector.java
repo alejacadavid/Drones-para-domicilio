@@ -15,10 +15,10 @@ import static co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioPosicion.
 
 public class DronCollector implements Collector<Instruccion, Dron, Dron> {
 
-    private Dron dron0 = null;
+    private Dron dron = null;
 
-    public DronCollector(Dron dron0) {
-        this.dron0 = dron0;
+    public DronCollector(Dron dron) {
+        this.dron = dron;
     }
 
     @Override

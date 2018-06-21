@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioRutas.java:24:1: illegal start of expression[0m
-[0m[[0m[31merror[0m] [0m[0m                case default:[0m
-[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioRutas.java:24:1: illegal start of expression[0m
-[0m[[0m[31merror[0m] [0m[0m                case default:[0m
-[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioRutas.java:24:1: ';' expected[0m
-[0m[[0m[31merror[0m] [0m[0m                case default:[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Ma. Alejandra\Proyectos\Drones-para-domicilio\Drones-para-domicilio\src\main\java\co\com\s4n\semillero\ejercicio\dominio\servicios\ServicioPedido.java:34:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method convToString()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable posicion of type java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0m                    posicionDronPedido[0] += posicion.convToString() + "\n";[0m

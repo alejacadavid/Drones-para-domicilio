@@ -31,3 +31,8 @@ testOnly co.com.s4n.semillero.ejercicio.servicios.ClasePrueba
 exit
 testOnly co.com.s4n.semillero.ejercicio.servicios.ClasePrueba
 exit
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/MAE7BB~1.ALE/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers, resolveSbtClassifiers");apply -cp "C:/Users/Ma. Alejandra/.IdeaIC2018.1/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+testOnly co.com.s4n.semillero.ejercicio.servicios.ClasePrueba
+clean
+testOnly co.com.s4n.semillero.ejercicio.servicios.ClasePrueba
