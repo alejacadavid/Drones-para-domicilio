@@ -1,4 +1,31 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Ma. Alejandra\Proyectos\Drones-para-domicilio\Drones-para-domicilio\src\main\java\co\com\s4n\semillero\ejercicio\dominio\servicios\ServicioPedido.java:34:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   method convToString()[0m
-[0m[[0m[31merror[0m] [0m[0m  location: variable posicion of type java.lang.String[0m
-[0m[[0m[31merror[0m] [0m[0m                    posicionDronPedido[0] += posicion.convToString() + "\n";[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPedido.java:63:1: no suitable method found for map((entrega)-[...]a); })[0m
+[0m[[0m[31merror[0m] [0m[0m    method io.vavr.Value.<U>map(java.util.function.Function<? super java.lang.String,? extends U>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) U[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; bad return type in lambda expression[0m
+[0m[[0m[31merror[0m] [0m[0m          missing return value))[0m
+[0m[[0m[31merror[0m] [0m[0m    method io.vavr.collection.Traversable.<U>map(java.util.function.Function<? super java.lang.String,? extends U>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) U[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; bad return type in lambda expression[0m
+[0m[[0m[31merror[0m] [0m[0m          missing return value))[0m
+[0m[[0m[31merror[0m] [0m[0m    method io.vavr.collection.Seq.<U>map(java.util.function.Function<? super java.lang.String,? extends U>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) U[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; bad return type in lambda expression[0m
+[0m[[0m[31merror[0m] [0m[0m          missing return value))[0m
+[0m[[0m[31merror[0m] [0m[0m    method io.vavr.collection.LinearSeq.<U>map(java.util.function.Function<? super java.lang.String,? extends U>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) U[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; bad return type in lambda expression[0m
+[0m[[0m[31merror[0m] [0m[0m          missing return value))[0m
+[0m[[0m[31merror[0m] [0m[0m    method io.vavr.collection.List.<U>map(java.util.function.Function<? super java.lang.String,? extends U>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) U[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; bad return type in lambda expression[0m
+[0m[[0m[31merror[0m] [0m[0m          missing return value))[0m
+[0m[[0m[31merror[0m] [0m[0mpedidos[0m
+[0m[[0m[31merror[0m] [0m[0m                    .map[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPedido.java:71:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable i[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioPedido[0m
+[0m[[0m[31merror[0m] [0m[0m                                    dron[0] = new Dron(0, ServicioPosicion.cambiarPosicion(dron[0].posicion, movimientos.get(i)));[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPedido.java:71:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable movimientos[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioPedido[0m
+[0m[[0m[31merror[0m] [0m[0m                                    dron[0] = new Dron(0, ServicioPosicion.cambiarPosicion(dron[0].posicion, movimientos.get(i)));[0m

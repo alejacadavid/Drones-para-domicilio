@@ -4,7 +4,7 @@
 		module="s4n-drones-para-domicilio"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180620195308"
+		publication="20180621080016"
 	>
 		<description>
 		s4n-drones-para-domicilio

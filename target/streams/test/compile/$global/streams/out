@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Ma. Alejandra\Proyectos\Drones-para-domicilio\Drones-para-domicilio\src\test\java\co\com\s4n\semillero\ejercicio\servicios\ClasePrueba.java:35:1: cannot find symbol[0m
-[0m[[0m[31merror[0m] [0m[0m  symbol:   method entregarPedido(co.com.s4n.semillero.ejercicio.dominio.entidades.Dron,io.vavr.collection.List<java.lang.String>)[0m
-[0m[[0m[31merror[0m] [0m[0m  location: class co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioPedido[0m
-[0m[[0m[31merror[0m] [0m[0m        System.out.println(ServicioPedido.entregarPedido(dron,pedidos));[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Desktop/Drones-para-domicilio/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ClasePrueba.java:41:1: variable listDrones is already defined in method testRutaPedidos()[0m
+[0m[[0m[31merror[0m] [0m[0m        List<Dron> listDrones = realizarEntregas(new Dron(1, new Posicion(0, 0, Orientacion.Norte)), List.of("AAAAIAAD"));[0m

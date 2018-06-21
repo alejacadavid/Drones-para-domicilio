@@ -1,7 +1,9 @@
 package co.com.s4n.semillero.ejercicio.dominio.servicios;
 
 import co.com.s4n.semillero.ejercicio.dominio.entidades.Dron;
+import co.com.s4n.semillero.ejercicio.dominio.entidades.Posicion;
 import co.com.s4n.semillero.ejercicio.dominio.valueObject.Instruccion;
+import co.com.s4n.semillero.ejercicio.dominio.valueObject.Orientacion;
 
 import java.util.EnumSet;
 import java.util.Set;
@@ -35,6 +37,7 @@ public class DronCollector implements Collector<Instruccion, Dron, Dron> {
 
     @Override
     public BinaryOperator<Dron> combiner() {
+
         return (Dron d1, Dron d2) -> d1;
     }
 

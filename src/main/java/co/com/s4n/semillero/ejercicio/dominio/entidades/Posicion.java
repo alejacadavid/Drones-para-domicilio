@@ -21,7 +21,7 @@ public final class Posicion {
     }
 
     public String convToString(){
-        String res = "("+this.x+", "+this.y+") direccion "+this.orientacion.toString();
+        String res = "("+this.x+", "+this.y+") Dirección "+this.orientacion.toString();
         return res;
     }
 
