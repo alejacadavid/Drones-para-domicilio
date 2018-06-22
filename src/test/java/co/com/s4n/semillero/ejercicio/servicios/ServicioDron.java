@@ -28,45 +28,52 @@ public class ServicioDron {
     @Test
     public void realizarEntregaExitosa(){
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n";
         assertEquals(reporte,expected);
     }
 
     @Test
     public void realizarEntregaExitosa2(){
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n(-4, 0) Dirección Este\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n";
         assertEquals(reporte,expected);
     }
 
     @Test
     public void realizarEntregaExitosa3(){
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n(-4, 0) Dirección Este\n(0, 4) Dirección Norte\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n(0, 4) Direccion Norte\n";
         assertEquals(reporte,expected);
     }
 
     @Test
     public void realizarEntregaExitosa4(){
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA","AD"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n(-4, 0) Dirección Este\n(0, 4) Dirección Norte\n(0, 5) Dirección Este\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n(0, 4) Direccion Norte\n(0, 5) Direccion Este\n";
         assertEquals(reporte,expected);
     }
 
     @Test
     public void realizarEntregaExitosa5(){
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA","AD","IA*"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n(-4, 0) Dirección Este\n(0, 4) Dirección Norte\n(0, 5) Dirección Este\n(0, 6) Dirección Norte\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n(0, 4) Direccion Norte\n(0, 5) Direccion Este\n(0, 6) Direccion Norte\n";
         assertEquals(reporte,expected);
     }
 
     @Test
     public void realizarEntregaExitosa6(){
+        System.out.println(realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA","AD","IA*","D")));
         String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA","AD","IA*","D"));
-        String expected = "== Reporte de entregas ==\n(0, 4) Dirección Oeste\n(-4, 4) Dirección Sur\n(-4, 0) Dirección Este\n(0, 4) Dirección Norte\n(0, 5) Dirección Este\n(0, 6) Dirección Norte\n(0, 0) Dirección Este\n";
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n(0, 4) Direccion Norte\n(0, 5) Direccion Este\n(0, 6) Direccion Norte\n(0, 0) Direccion Este\n";
         assertEquals(reporte,expected);
     }
 
 
+    @Test
+    public void realizarentrega(){
+        String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAAAAAAAAAAA","AD","IA*","D"));
+        String expected = "== Reporte de entregas ==\n(0, 4) Direccion Oeste\n(-4, 4) Direccion Sur\n(-4, 0) Direccion Este\n(0, 10) Direccion Norte\n(0, 10) Direccion Este\n(0, 10) Direccion Norte\n(0, 0) Direccion Este\n";
+        System.out.println(reporte);
+    }
 
 }

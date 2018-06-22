@@ -1,9 +1,11 @@
 package co.com.s4n.semillero.ejercicio.dominio.servicios;
 
 import co.com.s4n.semillero.ejercicio.dominio.entidades.Dron;
+import co.com.s4n.semillero.ejercicio.dominio.entidades.Posicion;
 import co.com.s4n.semillero.ejercicio.dominio.valueObject.Instruccion;
 import io.vavr.collection.Iterator;
 import io.vavr.collection.List;
+import io.vavr.control.Try;
 
 import java.util.ArrayList;
 
@@ -11,33 +13,56 @@ import java.util.ArrayList;
 public class ServicioDron {
 
     static final int MAX_ENTREGAS = 3;
+    static final int LIMITE_RANGO_DRON = 10;
 
     public static String realizarEntregas(Dron d, List<String> pedidos){
         final String[] reporte = {"== Reporte de entregas ==\n"};
-        Dron[] dron = {d};
-        int[] cont = {0};
-        List<Dron> listDrones = pedidos
-                .map(entrega -> {
-                    List<Instruccion> movimientos = cargarInstruccion(entrega);
-                    for (int i = 0; i < movimientos.length(); i++) {
-                        if(dron[0].posicion.x<=10 || dron[0].posicion.y<=10) {
-                            if (cont[0] == 3) {
-                                dron[0] = d;
-                                cont[0] = 0;
-                            }
-                            dron[0] = new Dron(0, ServicioPosicion.cambiarPosicion(dron[0].posicion, movimientos.get(i)));
-                        }else{
-                            new Error("Pedido por fuera del rango");
-                        }
-                    }
-                    cont[0] = cont[0] + 1;
-                    reporte[0] += dron[0].posicion.convToString() + "\n";
-                    return dron[0];
+        final Dron[] dron = new Dron[1];
+        Iterator<List<String>> pedidoAgru = pedidos.grouped(MAX_ENTREGAS);
+        pedidoAgru.forEach(s ->{
+            reporte[0] += enviarDron(d, s);
+        });
 
+        return reporte[0];
+    }
+
+
+
+    public static String enviarDron(Dron d, List<String> pedidos){
+        final String[] reporte = {""};
+        Dron[] dron = {d};
+        pedidos.map(entrega -> {
+                    List<Instruccion> movimientos = cargarInstruccion(entrega);
+
+                    movimientos.forEach(i->{
+                        if(validarRangoDron(dron[0],i).isSuccess()) {
+                                dron[0] = new Dron(0, ServicioPosicion.cambiarPosicion(dron[0].posicion, i));
+
+                        }else{
+                            dron[0] = new Dron(0,new Posicion(dron[0].posicion.x, dron[0].posicion.y,dron[0].posicion.orientacion));
+                            System.out.println(dron[0].posicion.convToString());
+                        }
+
+
+                    });
+            reporte[0] += dron[0].posicion.convToString() + "\n";
+            return dron[0];
                 });
 
 
         return reporte[0];
+    }
+
+    public static Try<String> validarRangoDron(Dron d, Instruccion i){
+            Dron d1 = new Dron(0, ServicioPosicion.cambiarPosicion(d.posicion, i));
+            if (d1.posicion.x<=LIMITE_RANGO_DRON && d1.posicion.y>= -LIMITE_RANGO_DRON
+                    && d1.posicion.y<=LIMITE_RANGO_DRON && d1.posicion.y>= -LIMITE_RANGO_DRON){
+                return Try.of(()-> "");
+            }else{
+                return Try.of(()-> { throw new Error("Direccion por fuera del rango");});
+            }
+
+
     }
 
     public static List<Instruccion> cargarInstruccion(String instrucciones){
