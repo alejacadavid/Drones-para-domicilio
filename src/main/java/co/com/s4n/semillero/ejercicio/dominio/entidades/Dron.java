@@ -12,6 +12,7 @@ public final class Dron {
         this.id = 0;
         this.posicion = new Posicion(0,0,Orientacion.Norte);
     }
+
     public Dron(int id, Posicion posicion){
         this.id = id;
         this.posicion = posicion;
