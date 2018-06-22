@@ -33,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServicioDron.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServicioDron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioDron.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-120">
@@ -41,6 +41,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -187,53 +196,6 @@
             <path>
               <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dominio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,9 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/scala_compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/Consumer.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Collector.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/RutaCollector.java" />
@@ -759,6 +718,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
