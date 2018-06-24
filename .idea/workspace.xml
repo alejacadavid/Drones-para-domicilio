@@ -13,13 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion_cambiarPosicionDrone.ic" NAME="ServicioPosicion.cambiarPosicionDrone Coverage Results" MODIFIED="1529636869511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioDron_realizarEntregaExitosa3.ic" NAME="ServicioDron.realizarEntregaExitosa3 Coverage Results" MODIFIED="1529636762763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioArchivo.ic" NAME="ServicioArchivo Coverage Results" MODIFIED="1529636785051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion_cambiarPosicionDrone.ic" NAME="ServicioPosicion.cambiarPosicionDrone Coverage Results" MODIFIED="1529636869511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion.ic" NAME="ServicioPosicion Coverage Results" MODIFIED="1529636846510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
