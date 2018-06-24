@@ -45,13 +45,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion_cambiarPosicionDrone.ic" NAME="ServicioPosicion.cambiarPosicionDrone Coverage Results" MODIFIED="1529636869511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioDron_realizarEntregaExitosa3.ic" NAME="ServicioDron.realizarEntregaExitosa3 Coverage Results" MODIFIED="1529636762763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioArchivo.ic" NAME="ServicioArchivo Coverage Results" MODIFIED="1529636785051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion_cambiarPosicionDrone.ic" NAME="ServicioPosicion.cambiarPosicionDrone Coverage Results" MODIFIED="1529636869511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.s4n.semillero.ejercicio.servicios.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/drones_para_domicilio_3367$ServicioPosicion.ic" NAME="ServicioPosicion Coverage Results" MODIFIED="1529636846510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -68,6 +68,7 @@
       <file leaf-file-name="ServicioDron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioDron.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="229">
               <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
@@ -83,6 +84,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+=======
+            <state relative-caret-position="-120">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +95,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Dron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/entidades/Dron.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="255">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+=======
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
             </state>
           </provider>
         </entry>
@@ -102,8 +121,13 @@
       <file leaf-file-name="ServicioArchivo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioArchivo.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="238">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+=======
+            <state relative-caret-position="330">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="77" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +138,11 @@
       <file leaf-file-name="Posicion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/entidades/Posicion.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="391">
+=======
+            <state relative-caret-position="345">
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
@@ -123,8 +151,13 @@
       <file leaf-file-name="ServicioDron.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioDron.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="215">
               <caret line="77" selection-start-line="77" selection-end-line="77" />
+=======
+            <state relative-caret-position="975">
+              <caret line="74" column="180" selection-start-line="74" selection-start-column="180" selection-end-line="74" selection-end-column="180" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,8 +168,13 @@
       <file leaf-file-name="ServicioArchivo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioArchivo.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="95">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
+=======
+            <state relative-caret-position="60">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,8 +185,25 @@
       <file leaf-file-name="ServicioPosicion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPosicion.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1139">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
+=======
+            <state relative-caret-position="1035">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicioPosicion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioPosicion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,13 +268,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="s4n-drones-para-domicilio" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,11 +352,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Drones-para-domicilio" type="462c0819:PsiDirectoryNode" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -575,17 +642,17 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="-20" y="438" width="1366" height="210" id="Messages" order="7" weight="0.27597404" />
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33766234" />
@@ -593,11 +660,21 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32954547" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34046054" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24249423" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
       <window_info anchor="bottom" id="Build" order="7" weight="0.32933104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -629,8 +706,19 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.37175325" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32933104" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34046054" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" x="-20" y="438" width="1366" height="210" id="Messages" order="7" weight="0.27597404" />
+      <window_info anchor="right" id="Gradle" order="3" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49884528" weight="0.32792208" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.19667171" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -642,9 +730,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/scala_compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/Consumer.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Collector.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/RutaCollector.java" />
@@ -763,8 +848,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPedido.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioArchivo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+=======
+        <state relative-caret-position="330">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="77" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,7 +863,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioPosicion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="289">
+=======
+        <state relative-caret-position="165">
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -783,14 +877,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/entidades/Dron.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+=======
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioPosicion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1139">
+=======
+        <state relative-caret-position="1035">
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -800,15 +903,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/entidades/Posicion.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="391">
+=======
+        <state relative-caret-position="345">
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioArchivo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="95">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+=======
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -824,8 +936,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/s4n/semillero/ejercicio/servicios/ServicioDron.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="215">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
+=======
+        <state relative-caret-position="975">
+          <caret line="74" column="180" selection-start-line="74" selection-start-column="180" selection-end-line="74" selection-end-column="180" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -834,12 +951,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/s4n/semillero/ejercicio/dominio/servicios/ServicioDron.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="229">
           <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2111#2124#0" expanded="true" />
+=======
+        <state relative-caret-position="-120">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> db5c2a9d16f63750d95d6468debf915371b9435b
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
