@@ -15,6 +15,8 @@ public class ServicioArchivo {
         return rutasEntrega;
     }
 
+
+
     public static Try<String> escribirReporte(String reporte, String rutaArchivo){
         return Try.of(()->new File(rutaArchivo))
                 .flatMap(f->Try.of(()->new FileWriter(f))

@@ -3,22 +3,49 @@ package co.com.s4n.semillero.ejercicio.dominio.servicios;
 import co.com.s4n.semillero.ejercicio.dominio.entidades.Dron;
 import co.com.s4n.semillero.ejercicio.dominio.entidades.Posicion;
 import co.com.s4n.semillero.ejercicio.dominio.valueObject.Instruccion;
+import io.vavr.Tuple;
+import io.vavr.Tuple2;
 import io.vavr.collection.Iterator;
 import io.vavr.collection.List;
+import io.vavr.concurrent.Future;
 import io.vavr.control.Try;
 
 import java.util.ArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
+import static co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioArchivo.importarInstruccionesPedido;
 
 public class ServicioDron {
 
     static final int MAX_ENTREGAS = 3;
+    static final int MAX_ENTREGAS2 = 10;
     static final int LIMITE_RANGO_DRON = 10;
 
-    public static String realizarEntregas(Dron d, List<String> pedidos){
+
+
+    public static String realizarEntregasVariosDrones(Dron d, List<String> rutasArchivos){
+        ExecutorService es = Executors.newFixedThreadPool(MAX_ENTREGAS2);
+        final String[] reporte = new String[1];
+        rutasArchivos.forEach(r ->{
+            List<String>[] pedidos = new List[0];
+            if(importarInstruccionesPedido(r).isSuccess()) {
+                pedidos[0] = importarInstruccionesPedido(r).get();
+                Future.of(es, () -> {
+                    reporte[0] = realizarEntregas(d, pedidos[0],MAX_ENTREGAS2);
+                    return reporte[0];
+                });
+            }
+
+        });
+        return reporte[0];
+    }
+
+    public static String realizarEntregas(Dron d, List<String> pedidos,int capacidad){
+
         final String[] reporte = {"== Reporte de entregas ==\n"};
         final Dron[] dron = new Dron[1];
-        Iterator<List<String>> pedidoAgru = pedidos.grouped(MAX_ENTREGAS);
+        Iterator<List<String>> pedidoAgru = pedidos.grouped(capacidad);
         pedidoAgru.forEach(s ->{
             reporte[0] += enviarDron(d, s);
         });

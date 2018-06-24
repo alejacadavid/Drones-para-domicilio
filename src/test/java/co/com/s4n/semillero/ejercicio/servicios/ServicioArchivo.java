@@ -9,7 +9,9 @@ import org.junit.Test;
 
 import java.io.FileNotFoundException;
 
+import static co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioArchivo.escribirReporte;
 import static co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioArchivo.importarInstruccionesPedido;
+import static co.com.s4n.semillero.ejercicio.dominio.servicios.ServicioDron.realizarEntregas;
 import static org.junit.Assert.assertEquals;
 
 public class ServicioArchivo {
@@ -33,12 +35,12 @@ public class ServicioArchivo {
         Try<List<String>> rutas = importarInstruccionesPedido("./src/test/resources/in.txt");
         assertEquals("Archivo vacio",Try.of(() -> List.of("")).toString(),rutas.toString());
     }
-/*
-    @Test
-    public void escribirReportes(){
-        String reporte = realizarEntregas(new Dron(0,new Posicion(0,0,Orientacion.Norte)),List.of("AAAAI","AAAAI","AAAAI","AAAA","AD","IA*","D"));
-        String rutaArchivo = "./src/resources/out.txt";
-        assertEquals(Try.of(() -> "Escritura exitosa"),escribirReporte(reporte, rutaArchivo));
-    }*/
 
+    @Test
+    public void escribirReportes() {
+        String reporte = realizarEntregas(new Dron(0, new Posicion(0, 0, Orientacion.Norte)), List.of("AAAAI", "AAAAI", "AAAAI", "AAAA", "AD", "IA*", "D"),3);
+        String rutaArchivo = "./src/resources/out.txt";
+        assertEquals(Try.of(() -> "Escritura exitosa"), escribirReporte(reporte, rutaArchivo));
+
+    }
 }
